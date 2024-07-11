@@ -52,7 +52,6 @@ section {
     background: url(images/bach-2-.png) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .main h2 {
@@ -102,7 +101,7 @@ section {
     color: #fff;
     font-size: 2.7em;
     padding-right: 30px;
-    padding: 87px;
+    padding-left: 87px;
 }
 
 .title {
@@ -253,7 +252,7 @@ section {
     padding: 0 12px 0 0;
 }
 
-@media (max-width:1023px){
+@media (max-width:1024px){
     header{
         padding: 12px 20px;
     }
@@ -282,6 +281,9 @@ section {
         flex-direction: column;
         align-items: center;
     }
+    .main{
+        background-position-x: 89%;
+    }
     
 }
 
@@ -296,6 +298,9 @@ section {
 
     .main-content h3{
         font-size: 1.4em;
+    }
+    .main{
+        background-position-x: 89%;
     }
 }
 
