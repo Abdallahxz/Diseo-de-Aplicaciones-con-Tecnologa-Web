@@ -1,0 +1,12 @@
+#randomPhrase {
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+}
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
